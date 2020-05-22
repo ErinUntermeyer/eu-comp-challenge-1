@@ -1,8 +1,36 @@
-.header {
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+/* this is my flex container */
+nav {
+  height: 100px;
   background: lightgray;
   border: solid black 5px;
-  
+
+  display: flex;
+  justify-content: space-between;
+  place-items: flex-end;
+
 }
+
+.title {
+  padding-left: 20px;
+}
+
+/* this is my flex item */
+.nav-buttons {
+  align-content: flex-start;
+  margin: 10px;
+}
+
+.logo {
+  border: solid orange 1px;
+  align-self: flex-end;
+  margin: 10px;
+}
+
 
 /* this is my grid container */
 .content {
