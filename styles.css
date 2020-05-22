@@ -39,22 +39,33 @@ nav {
   margin: 10px;
 }
 
-
 /* this is my grid container */
 .content {
   padding: 10px;
   border: solid red 5px;
   background: #D3C0D3;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: fit-content(50%) fit-content(50%);
+  gap: 10px;
+  place-items: center;
+  justify-content: center;
+
 }
 
 /*this is my grid item */
 article {
-  height: 350px;
-  width: 220px;
+  padding-top: 10px;
+  height: auto;
+  width: 85%;
   border: solid green 5px;
   background-color: #C0D3C5;
   margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: fit-content(10%) fit-content(30%) fit-content(60%);
 
 }
 
