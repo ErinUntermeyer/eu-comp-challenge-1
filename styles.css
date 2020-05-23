@@ -14,13 +14,11 @@ body {
 /* this is my flex container */
 nav {
   height: 100px;
-  background: lightgray;
-  border: solid black 5px;
+  background: #787878;
 
   display: flex;
   justify-content: space-between;
   place-items: flex-end;
-
 }
 
 .title {
@@ -34,7 +32,6 @@ nav {
 }
 
 .logo {
-  border: solid orange 1px;
   align-self: flex-end;
   margin: 10px;
 }
@@ -46,8 +43,7 @@ nav {
 /* this is my grid container */
 .content {
   padding: 10px;
-  border: solid red 5px;
-  background: #D3C0D3;
+  background: #787878;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,7 +51,6 @@ nav {
   gap: 10px;
   place-items: center;
   justify-content: center;
-
 }
 
 /*this is my grid item */
@@ -63,25 +58,27 @@ article {
   padding-top: 10px;
   height: auto;
   width: 85%;
-  border: solid green 5px;
-  background-color: #C0D3C5;
+  background-color: #f2b3cd;
+  transition: 1s;
   margin: 0;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: fit-content(10%) fit-content(30%) fit-content(60%);
+}
 
+article:hover {
+  background-color: #f097bc;
+  border: solid black 1pt;
 }
 
 p {
-  border: solid black 1px;
   margin: 10px;
   font-size: 10pt;
 
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 3;
-
 }
 
 input {
@@ -91,7 +88,6 @@ input {
 }
 
 h3 {
-  border: solid purple 1px;
   margin: 10px;
   text-align: right;
 
