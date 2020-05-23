@@ -97,3 +97,12 @@ h3 {
   align-self: center;
   justify-self: right;
 }
+
+img {
+  width: 85%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+}
