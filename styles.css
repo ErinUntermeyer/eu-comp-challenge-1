@@ -106,3 +106,29 @@ img {
   align-self: center;
   justify-self: center;
 }
+
+@media screen and (max-width: 83em) and (min-width: 60em) {
+  .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 60em) and (min-width: 30em) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  .nav-buttons {
+    margin: 0;
+  }
+}
+
+/* @media screen and (max-width: 116em) {
+  .content {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } */
