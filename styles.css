@@ -39,6 +39,10 @@ nav {
   margin: 10px;
 }
 
+.space {
+  padding: 20px;
+}
+
 /* this is my grid container */
 .content {
   padding: 10px;
@@ -123,7 +127,12 @@ img {
   .content {
     grid-template-columns: 1fr;
   }
+
   .nav-buttons {
     margin: 0;
+  }
+
+  .space {
+    padding: 5px;
   }
 }
