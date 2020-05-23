@@ -27,6 +27,15 @@ nav {
   margin: 10px;
 }
 
+.button {
+  background-color: #f2b3cd;
+}
+
+button:hover {
+  background-color: #f097bc;
+  border: solid black 1pt;
+}
+
 .title {
   text-align: right;
   padding-right: 20px;
