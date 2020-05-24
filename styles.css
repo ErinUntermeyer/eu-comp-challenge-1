@@ -14,7 +14,6 @@ body {
     );
 }
 
-/* this is my flex container */
 nav {
   height: 100px;
   position: relative;
@@ -35,7 +34,6 @@ nav::before {
   opacity: .5;
 }
 
-/* this is my flex item */
 .nav-buttons {
   position: relative;
   align-content: flex-start;
@@ -62,7 +60,6 @@ background-color: #e4c1f9;
   padding: 20px;
 }
 
-/* this is my grid container */
 .content {
   padding: 10px;
   position: relative;
@@ -86,7 +83,6 @@ background-color: #e4c1f9;
   opacity: .5;
 }
 
-/*this is my grid item */
 article {
   position: relative;
   padding-top: 10px;
