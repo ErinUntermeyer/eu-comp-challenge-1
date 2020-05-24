@@ -12,7 +12,7 @@ This is the example of the original static comp displaying the layout we must st
 
 #### My static Comp
 
-Below are the layouts on different screen sizes.
+This is the static comp I created. Below are all the layouts displayed different screen sizes.
 
 ###### Mobile view
 
